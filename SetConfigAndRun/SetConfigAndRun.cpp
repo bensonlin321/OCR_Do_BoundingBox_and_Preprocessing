@@ -147,7 +147,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			system(SystemCommand);
 			sprintf(SystemCommand, "D:\\Skywawtch\\Working\\caffe\\prediction\\ShiftImage.exe");
 			system(SystemCommand);
-			sprintf(SystemCommand, "python D:\\Skywawtch\\Working\\caffe\\python\\classify_ok_multi_multi.py --model_def D:\\Skywawtch\\Working\\caffe\\python\\lenet.prototxt --pretrained_model D:\\Skywawtch\\Working\\caffe\\python\\lenet_iter_80000LMDB.caffemodel --force_grayscale --center_only --print_results D:\\Skywawtch\\Working\\caffe\\%d_BoundingBox\\ImageSet\\ outyoyo", i);
+			sprintf(SystemCommand, "python D:\\Skywawtch\\Working\\caffe\\python\\classify_ok_multi_multi.py --model_def D:\\Skywawtch\\Working\\caffe\\python\\lenet.prototxt --pretrained_model D:\\Skywawtch\\Working\\caffe\\python\\lenet_iter_20000LMDB.caffemodel --force_grayscale --center_only --print_results D:\\Skywawtch\\Working\\caffe\\%d_BoundingBox\\ImageSet\\ outyoyo", i);
 			system(SystemCommand);
 			//printf(SystemCommand);
 			//------------------------------------------analysis-------------------------------------------
